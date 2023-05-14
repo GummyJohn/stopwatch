@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: 
+    linear-gradient(45deg, rgba(153, 153, 255, .7), rgba(204, 255, 255, .7));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch{
+  background-color: white;
+  padding: 1.2rem;
+  width: 400px;
+  margin-bottom: 10rem;
+}
+
+.title{
+  text-align: center;
+  font-weight: normal;
+}
+
+p {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.buttons{
+  text-align: center;
+}
+
+.buttons > button {
+  margin: 1rem;
+  padding: .7rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-color:   rgba(204, 255, 255, .7);
+}
+
+button:hover {
+  background: rgba(153, 153, 255, .7);
+}
