@@ -12,8 +12,7 @@ let second = 00;
 let timer = true;
 
 startButton.addEventListener('click', () => {
-
-  console.log(timer)
+  console.log(second)
 })
 
 stopButton.addEventListener('click', () => {
